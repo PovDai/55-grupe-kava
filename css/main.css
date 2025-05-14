@@ -146,23 +146,22 @@ button {
     border: none;
     padding: 1rem 4rem;
     font-size: 1rem;
-    animation: move 20s infinite;
+    animation: move 10s infinite;
 }
 
 @keyframes move {
     0% {
-        padding: 1rem 4rem; 
+        padding: 1rem ;
         color: red;
-    }
-    50%{
-        padding: 2rem 5rem;
-        background-color: blue;
         opacity: 1;
     }
+
     100% {
-        padding: 3rem 6rem;
-        color: aqua;
+        padding: 1rem ;
+        padding-left: 32rem;
+        color:red;
         opacity: 0.2;
+        background-color: burlywood;
     }
 }
 
